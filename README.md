@@ -1,7 +1,7 @@
 # Spark.NET
 ### Sparklines for C# application
 
-After 1,5 years of @holman's release of [spark](https://github.com/holman/spark), I deciced to make a C# port. Meanwhile many planning and legal meetings are held and brownbags are organized. Now, Spark.NET is finally ready.
+After 1.5 years of @holman's release of [spark](https://github.com/holman/spark), I deciced to make a C# port. Meanwhile many planning and legal meetings are held and brownbags are organized. Now, Spark.NET is finally ready.
 
 ### Installation
 
