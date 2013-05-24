@@ -5,3 +5,15 @@ After 1,5 years of @holman's release of [spark](https://github.com/holman/spark)
 
 ### Usage
 
+Just import 
+    
+    using SparkNet;
+
+and pass numbers
+
+	Spark.Render(0, 30, 55, 80, 33, 150);
+    (returns ▁▂▃▄▂█)
+
+alternatively, you can pass `IList<double>` to `Render` method. It supports floating point numbers as well.
+
+## Hack it!

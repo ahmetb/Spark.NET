@@ -37,6 +37,7 @@ namespace SparkTest
         [TestMethod]
         public void Test4()
         {
+            Assert.AreEqual(@"▁▂▃▄▅▆▇█", Spark.Render(0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007, 0.008));
             Assert.AreEqual( @"▁█", Spark.Render(new double[] {5.5, 20}));
         }
 
