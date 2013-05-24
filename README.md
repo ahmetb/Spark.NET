@@ -24,4 +24,6 @@ and pass numbers
 
 alternatively, you can pass `IList<double>` to `Render` method. It supports floating point numbers as well.
 
+It does not work on cmd.exe and thus command line programs due to shitty old fonts inherited from late 80s, however it will work on window applications.
+
 ## Hack it!
