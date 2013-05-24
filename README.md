@@ -1,11 +1,19 @@
 # Spark.NET
 ### Sparklines for C# application
 
-After 1,5 years of @holman's release of [spark](https://github.com/holman/spark), I deciced to make a C# port. Meanwhile many corporate planning and legal meetings held and brownbags organized, Spark.NET is finally ready.
+After 1,5 years of @holman's release of [spark](https://github.com/holman/spark), I deciced to make a C# port. Meanwhile many planning and legal meetings are held and brownbags are organized. Now, Spark.NET is finally ready.
+
+### Installation
+
+Using [NuGet](https://nuget.org/) package manager, run the following command in the Package Manager Console
+
+    PM> Install-Package Spark.NET
+
+or alternativelty, right-click to your project in Visual Studio → Manage NuGet Packages → Search "Spark.NET" → click Install. Reference will be added to your project automatically.
 
 ### Usage
 
-Just import 
+Just import the namespace
     
     using SparkNet;
 
