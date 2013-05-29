@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Spark.NET</id>
+        <version>1.0.2</version>
+        <title />
+        <authors>ahmetalpbalkan</authors>
+        <owners>Ahmet Alp Balkan</owners>
+        <licenseUrl>https://raw.github.com/ahmetalpbalkan/Spark.NET/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/ahmetalpbalkan/Spark.NET</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Generate charts out of number sequences with unicode characters:
+
+Spark.Render(0, 30, 55, 80, 33, 150) --&gt; "▁▂▃▄▂█"</description>
+        <summary>Wicked ▁▂▃▅▂▇ charts in your C# programs.</summary>
+    </metadata>
+    <files>
+        <file src="lib\SparkLib.dll" target="lib\SparkLib.dll" />
+        <file src="lib\SparkLib.pdb" target="lib\SparkLib.pdb" />
+    </files>
+</package>
